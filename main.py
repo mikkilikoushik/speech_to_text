@@ -43,8 +43,9 @@ def speech_to_text(language="hi-IN"):
 
 
 # ------------------ OFFLINE SPEECH TO TEXT ------------------
+# -- NOTE -- : with out downloading vosk model this will not work --- 
 def offline_recognize():
-    model_path = "vosk-model-en-us-0.42-gigaspeech"
+    model_path = "path for the vosk"
 
     if not os.path.exists(model_path):
         print("Vosk model not found!")
@@ -177,4 +178,5 @@ if __name__ == "__main__":
 
         else:
             print("Please enter a valid option.")
+
 
