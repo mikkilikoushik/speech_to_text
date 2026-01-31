@@ -1,0 +1,15 @@
+
+
+⚠️ Notes
+
+ -> Internet Connection: Required for online speech recognition and for downloading NLP models on first run.
+
+-> Offline Mode: Vosk enables speech recognition without internet, but the Vosk language model must be downloaded manually and placed in the project directory.
+
+-> PyAudio Issues: PyAudio may fail to install via pip on some systems. Install PortAudio first or use a precompiled wheel (recommended on Windows).
+
+-> Model Downloads: BART and MarianMT models are automatically downloaded by Hugging Face during the first execution and may take time.
+
+-> Hardware: CPU is sufficient, but using a system with more RAM improves performance for large transformer models.
+
+-> Microphone Access: Ensure microphone permissions are enabled for proper speech input.
