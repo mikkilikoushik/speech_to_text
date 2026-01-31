@@ -1,0 +1,65 @@
+torch
+
+Usage:
+Runs deep learning models for summarization and translation (BART & MarianMT).
+
+Install:
+
+pip install torch
+
+transformers
+
+Usage:
+Loads and manages NLP transformer models for text summarization and translation.
+
+Install:
+
+pip install transformers
+
+sentencepiece
+
+Usage:
+Provides subword tokenization required for MarianMT translation models.
+
+Install:
+
+pip install sentencepiece
+
+SpeechRecognition
+
+Usage:
+Converts speech to text using online APIs (Google Speech Recognition).
+
+Install:
+
+pip install SpeechRecognition
+
+vosk
+
+Usage:
+Enables offline speech recognition without internet connectivity.
+
+Install: "pip install vosk"
+
+pyaudio
+
+Usage:
+Captures microphone audio for both online and offline speech recognition.
+
+Install: "pip install pyaudio"
+
+
+⚠️ If installation fails:
+
+Windows: install prebuilt wheel
+
+Linux: sudo apt install portaudio19-dev
+
+macOS: brew install portaudio
+
+ping3
+
+Usage:
+Checks internet connectivity to switch between online and offline modes.
+
+Install: "pip install ping3"
