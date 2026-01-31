@@ -1,0 +1,19 @@
+torch
+transformers
+sentencepiece
+SpeechRecognition
+vosk
+pyaudio
+ping3
+
+Notes (important but not inside the file):
+	Download Vosk model separately:
+		vosk-model-en-us-0.42-gigaspeech
+
+For PyAudio:
+
+	Windows: install via prebuilt wheel if pip fails
+
+	Linux: sudo apt install portaudio19-dev
+
+	macOS: brew install portaudio
